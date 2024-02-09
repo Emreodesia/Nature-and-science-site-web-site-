@@ -1,11 +1,11 @@
 $(document).ready(function() {
-    $("body").append("<p>Hello World</p>");
+    $("body").append("<p>Hello World :D</p>");
 });
 
 
 
 $(document).ready(function(){
-    $("img").click(function(){
+    $("Nav1").click(function(){
         $(this).fadeOut();
     });
 });

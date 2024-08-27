@@ -2861,3 +2861,13 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   font-size: 14px;
 }
+
+
+.jumbotron-custom {
+   background: url('https://example.com') no-repeat center center; 
+   background-color: #b3b6b8; 
+  background-size: cover;
+  color: #ffffff;
+  padding: 4rem 2rem;
+ 
+}

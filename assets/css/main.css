@@ -778,17 +778,22 @@ section,
   }
 }
 
+
+
 .hero .info h2 {
   margin-bottom: 30px;
   padding-bottom: 30px;
-  font-size: 56px;
+  font-size: 50px;
   font-weight: 700;
   position: relative;
   text-align: end;
-  right: 700%;
+  right: 80%;
   left: auto;
- 
+  white-space: nowrap;
 }
+
+
+
 
 .hero .info h2:after {
   content: "";
@@ -803,18 +808,43 @@ section,
   margin: auto;
 }
 
+
 @media (max-width: 768px) {
   .hero .info h2 {
-    font-size: 36px;
-  
+    font-size: 18px; /* Büyük olanı kaldırdım, sadece bir boyut olmalı */
+    margin: 0 auto; /* Merkezi hizalama için margin ayarlandı */
+    padding: 0; /* Padding sıfırlandı */
+    position: relative;
+    right: 0; /* Eşit bir hizalama için ayarlandı */
+    left: auto;
+  }
+
+  .hero .info p {
+    color: rgba(var(--default-color), 0.8); /* `color-mix` yerine rgba kullanıldı */
+    font-size: 18px;
+    margin: 0 auto; /* Merkezi hizalama için margin ayarlandı */
+    padding: 0; /* Padding sıfırlandı */
+    position: relative;
+    right:0%; /* Eşit bir hizalama için ayarlandı */
+    left: auto;
   }
 }
+
+
+
 
 .hero .info p {
   color: color-mix(in srgb, var(--default-color), transparent 20%);
   font-size: 18px;
-  
+  margin: auto;
+  padding: auto;
+  position: relative;
+  right: 80%;
+  left: auto;
+
+
 }
+
 
 .hero .info .btn-get-started {
   color: var(--contrast-color);
@@ -872,9 +902,25 @@ section,
   justify-content: start;
 }
 
-@media (min-width: 640px) {
-  .hero .carousel-control-prev {
-    padding-left: 15px;
+
+@media (max-width: 640px) {
+  .hero .info h2 {
+    font-size: 20px; 
+    margin: 0 auto; 
+    padding: 0; 
+    position: relative;
+    right: 10%; 
+    left: auto;
+  }
+
+  .hero .info p {
+    color: rgba(var(--default-color), 0.8); 
+    font-size: 18px;
+    margin-top: 10px; 
+    padding: 0; 
+    position: relative;
+    right:10%; 
+    left: auto;
   }
 }
 

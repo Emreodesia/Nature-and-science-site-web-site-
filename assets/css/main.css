@@ -796,7 +796,6 @@ section,
 
 
 .hero .info h2:after {
-  content: "";
   position: absolute;
   display: block;
   width: 80px;

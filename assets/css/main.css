@@ -793,12 +793,12 @@
 
         .hero .info h2 {
           margin-bottom: 30px;
-          padding-bottom: 30px;
+          padding-bottom: 40px;
           font-size: 50px;
           font-weight: 700;
           position: relative;
           text-align: end;
-          right: 80%;
+          right: 350px;
           left: auto;
           white-space: nowrap;
         }
@@ -822,28 +822,28 @@
         @media (max-width: 768px) {
           .hero .info h2 {
             font-size: 18px;
-            /* Büyük olanı kaldırdım, sadece bir boyut olmalı */
+         
             margin: 0 auto;
-            /* Merkezi hizalama için margin ayarlandı */
+          
             padding: 0;
-            /* Padding sıfırlandı */
+         
             position: relative;
             right: 0;
-            /* Eşit bir hizalama için ayarlandı */
+         
             left: auto;
           }
 
           .hero .info p {
             color: rgba(var(--default-color), 0.8);
-            /* `color-mix` yerine rgba kullanıldı */
+        
             font-size: 18px;
             margin: 0 auto;
-            /* Merkezi hizalama için margin ayarlandı */
+            
             padding: 0;
-            /* Padding sıfırlandı */
+
             position: relative;
             right: 0%;
-            /* Eşit bir hizalama için ayarlandı */
+         
             left: auto;
           }
         }
@@ -857,8 +857,8 @@
           margin: auto;
           padding: auto;
           position: relative;
-          right: 80%;
-          left: auto;
+          right: 350px;
+         left: auto;
 
 
         }

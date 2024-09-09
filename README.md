@@ -9,3 +9,6 @@ VoltRiseManisa is a web project crafted with the integration of HTML, CSS, Boots
 The primary goal of this project is to refine my web development skills and contribute to my continuous learning journey.
 
 https://emreodesia.github.io/VoltRiseManisa/
+
+![101810](https://github.com/user-attachments/assets/68a36e8a-d48b-42ac-884b-f8e243e49622)
+

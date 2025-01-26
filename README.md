@@ -10,5 +10,7 @@ The primary goal of this project is to refine my web development skills and cont
 
 https://emreodesia.github.io/VoltRiseManisa/
 
-![101810](https://github.com/user-attachments/assets/68a36e8a-d48b-42ac-884b-f8e243e49622)
+
+![a5](https://github.com/user-attachments/assets/a075d00a-fd57-49b2-bf56-0fbfa8cee698)
+
 
